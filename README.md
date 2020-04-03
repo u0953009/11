@@ -1,6 +1,6 @@
-## Binary Image classifier using keras
+# Binary Image classifier using keras
 
-Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
+Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object. \ 
 After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise,
 an object is on the desk or floor.
 
@@ -8,13 +8,13 @@ Photos were taken after each try.
 
 This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
 
-1707 images were used to train.
-500 images to validate.
+1707 images were used to train. \
+500 images were used to validate.
 
-# Installation
+## Installation
 pip install -r requirements.txt
 
-# usage
+## usage
 Model train
 >python train.py [train_sample_path] [validation_sample_path] [model_filename] 
 
@@ -24,7 +24,7 @@ Model predict
 >ptyhon predict.py [image_file_folder_path] [model_path]
 
 
-# samples
+## samples
 Trained model \
 https://drive.google.com/file/d/19u42pCy3cQgGv9dTHXnSubFth-g3Igc7/view?usp=sharing 
 
