@@ -89,7 +89,7 @@ mname=sys.argv[3]
 tpath=sys.argv[1]
 vpath=sys.argv[2]
 v3path=r'v3/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
-pixel=450
+pixel=350
 
 
 last_output, pre_trained_model=loadWeight(pixel, v3path)

@@ -7,7 +7,7 @@ import sys
 
 mpath=sys.argv[2]
 fpath=sys.argv[1]
-pixel=450
+pixel=350
 
 test_datagen=ImageDataGenerator(
     rescale=1./255,
