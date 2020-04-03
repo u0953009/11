@@ -1,7 +1,7 @@
-#Installation
+# Installation
 pip install -r requirements.txt
 
-#usage
+# usage
 Model train
 python train.py [train_sample_path] [validation_sample_path] [model_filename]
 
