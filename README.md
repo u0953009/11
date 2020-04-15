@@ -15,10 +15,11 @@
    - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
    - Sample images
       Majority of images were taken from side(eg., middle image)
-      
+	  
      <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/2018-09-05-1109062018ral_img957.jpg" width="290" height="161"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_pringles_grasp_1_lift_side377.png" width="290" height="163"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/IMG_20180905_092459phoneral967.jpg" width="145" height="193">
 
   - Simulation images
+  
     <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_3m_high_tack_spray_adhesive_grasp_0td1717303.png" width="303" height="227">
 	<img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_3m_high_tack_spray_adhesive_grasp_8_lift_6_880.png" width="303" height="227">  
 
@@ -65,4 +66,4 @@ https://drive.google.com/file/d/15rYkZ-tH4owzg-1yb2Ie1de3lQomhQ5X/view?usp=shari
 
 Test sample   \
 https://drive.google.com/open?id=19HZBEbFFvHIUM7X5EtDXYP9qyTIDQiDL 
-https://drive.google.com/open?id=1dURixYlvkKF6S4_GDUrJhNDqE7OaBGoY   
+https://drive.google.com/open?id=1dURixYlvkKF6S4_GDUrJhNDqE7OaBGoY  
