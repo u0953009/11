@@ -1,12 +1,6 @@
 # Binary Image classifier using keras
 
-<<<<<<< HEAD
-Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.\
-After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise,
-an object is on the desk or floor.
-=======
 Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
->>>>>>> a81f2b5407289862f7cdae93cff72daf0991c5c6
 
 1. Model Architecture
    - The model uses pre trained model Inception V3
@@ -14,26 +8,21 @@ Images used to train this classifier are phtos of Allegro robotic hand trying to
    - On top of the pre trained model, classifier layer is built.
       Fully connected layer and sigmoid layer
 
-2. Data analysis
+2. Data dsecription
    - After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise, an object is on the desk or floor.
 
    - Photos were taken after each try.
 
    - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
 
-   - 1707 images were used to train. 
-    500 images were used to validate.
-
-   - Sample images
-
-
-<<<<<<< HEAD
-Inception v3 model 
-
-1707 images were used to train. \
+  - 1707 images were used to train. 
 500 images were used to validate.
-=======
->>>>>>> a81f2b5407289862f7cdae93cff72daf0991c5c6
+
+  - Sample images
+<img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/2018-09-05-1109062018ral_img957.jpg" width="290" height="161"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_pringles_grasp_1_lift_side377.png" width="290" height="163"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/IMG_20180905_092459phoneral967.jpg" width="145" height="193">
+
+
+
 
 ## Installation
 pip install -r requirements.txt
