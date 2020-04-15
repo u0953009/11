@@ -1,16 +1,26 @@
 # Binary Image classifier using keras
 
 Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
- 
-After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise,
-an object is on the desk or floor.
 
-Photos were taken after each try.
+1. Model Architecture
+   - The model uses pre trained model Inception V3
+   - Mixed7 layer Inception V3 is extracted 
+   - On top of the pre trained model, classifier layer is built.
+      Fully connected layer and sigmoid layer
 
-This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
+2. Data analysis
+  - After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise, an object is on the desk or floor.
 
-1707 images were used to train. \
+   - Photos were taken after each try.
+
+  - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
+
+ - 1707 images were used to train. 
 500 images were used to validate.
+
+ - Sample images
+
+
 
 ## Installation
 pip install -r requirements.txt
@@ -37,5 +47,3 @@ https://drive.google.com/file/d/15rYkZ-tH4owzg-1yb2Ie1de3lQomhQ5X/view?usp=shari
 Test sample   \
 https://drive.google.com/open?id=19HZBEbFFvHIUM7X5EtDXYP9qyTIDQiDL 
 https://drive.google.com/open?id=1dURixYlvkKF6S4_GDUrJhNDqE7OaBGoY  
-
-        
