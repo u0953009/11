@@ -11,14 +11,14 @@ Images used to train this classifier are phtos of Allegro robotic hand trying to
 2. Data analysis
   - After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise, an object is on the desk or floor.
 
-   - Photos were taken after each try.
+  - Photos were taken after each try.
 
   - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
 
- - 1707 images were used to train. 
-500 images were used to validate.
+  - 1707 images were used to train. 
+    500 images were used to validate.
 
- - Sample images
+  - Sample images
 
 
 
