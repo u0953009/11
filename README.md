@@ -1,6 +1,6 @@
 # Binary Image classifier using keras
 
-Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
+
 
 1. Model Architecture
    - The model uses pre trained model Inception V3
@@ -9,6 +9,7 @@ Images used to train this classifier are phtos of Allegro robotic hand trying to
       Fully connected layer and sigmoid layer
 
 2. Data dsecription
+   - Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise, an object is on the desk or floor.
 
    - Photos were taken after each try.
