@@ -36,15 +36,15 @@
    Valid - number of images to validate the model  
    input shape - input shape of the model  
   
-   - Model1  
-     Train: 700(photo)  Valid: 500(photo), input shape: (150,150,3)
-   - Model2  
-     Train: 700(photo)  Valid: 500(photo), input shape: (350,350,3)
-   - Model3  
-     Train: 700(photo)+500(similation)  Valid: 500(photo), input shape: (350,350,3)  
+   - Model 1  
+     Train: 700 (photo)  Valid: 500 (photo), input shape: (150,150,3)
+   - Model 2  
+     Train: 700 (photo)  Valid: 500 (photo), input shape: (350,350,3)
+   - Model 3  
+     Train: 700 (photo) + 500 (similation)  Valid: 500 (photo), input shape: (350,350,3)  
      To increases number of training data, use simulation images.
-   - Model4  
-     Train: 700(photo)+1007(extracted)  Valid: 500(photo), input shape: (350,350,3)  
+   - Model 4  
+     Train: 700 (photo) + 1007 (extracted)  Valid: 500 (photo), input shape: (350,350,3)  
      To increases number of training data, extract images from experiment video.
 
 
