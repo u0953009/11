@@ -30,7 +30,7 @@
    - Models
       - Model 1  
         Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)
-	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="379"        height="264">  
+	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">  
 	 
       - Model 2  
         Train: 700 (photo),  Valid: 500 (photo), input shape: (350,350,3)
