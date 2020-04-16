@@ -41,9 +41,8 @@
 
          <p>&nbsp;</p>
 ## Installation
->pip install -r requirements.txt     
-
-   <p>&nbsp;</p>
+>pip install -r requirements.txt
+<br></br>
 ## usage
 Model training
 >python train.py [train_sample_path] [validation_sample_path] [model_filename]
