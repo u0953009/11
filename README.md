@@ -10,7 +10,7 @@
      Fully connected layer and sigmoid layer
 
 2. Data dsecription
-   - Images used to train this classifier are photos of Allegro robotic hand trying to grasp an object.
+   - Images used to train this classifier are photos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it was successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - Photos were taken before and after each try.
    - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
