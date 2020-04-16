@@ -29,7 +29,7 @@
      - Extracted image samples from videos  
        Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unseccessful.    
        <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15049.jpg" width="303" height="170">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15855.jpg" width="303" height="170">
-	
+	  <p>&nbsp;</p>
 **3. Model reports**  
      Train configuration  
      Train - number of images to train the model   
