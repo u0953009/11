@@ -26,11 +26,14 @@
    - Training configuration  
      - Train - the number of images to train the model   
      - Valid - the number of images to validate the model  
+     - test  - the number of images to test the model
      - input shape - the input shape of the model  
    - Models
       - Model 1  
         Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo), input shape: (150,150,3)  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">  
+	 Accuracy range is from 0.75 to 0.79 over 30 ephocs.  
+	 108 out of 143 tests are correct.  
 	 
       - Model 2  
         Train: 700 (photo),  Valid: 500 (photo), input shape: (350,350,3)
