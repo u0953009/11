@@ -41,9 +41,9 @@
 
          <p>&nbsp;</p>
 ## Installation
->pip install -r requirements.txt  
+>pip install -r requirements.txt     
 
-         <p>&nbsp;</p>
+  <p>&nbsp;</p>
 ## usage
 Model training
 >python train.py [train_sample_path] [validation_sample_path] [model_filename]
@@ -53,7 +53,7 @@ The output model will be saved in 'models' folder.
 Model prediction  
 >ptyhon predict.py [image_file_folder_path] [model_path]  
 
-         <p>&nbsp;</p>
+   <p>&nbsp;</p>
 ## samples
 Trained model \
 https://drive.google.com/file/d/19u42pCy3cQgGv9dTHXnSubFth-g3Igc7/view?usp=sharing 
