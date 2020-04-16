@@ -39,10 +39,10 @@
         Train: 700 (photo) + 1007 (extracted),  Valid: 500 (photo), input shape: (350,350,3)  
         To increase the number of training data, images extracted from experiment videos were added.
 
-<p>&nbsp;</p>
+         <p>&nbsp;</p>
 ## Installation
 >pip install -r requirements.txt
-<p>&nbsp;</p>
+     <p>&nbsp;</p>
 ## usage
 Model train
 >python train.py [train_sample_path] [validation_sample_path] [model_filename]   
@@ -50,7 +50,7 @@ The output model will be saved in 'models' folder.
 
 Model predict
 >ptyhon predict.py [image_file_folder_path] [model_path]
-<p>&nbsp;</p>
+   <p>&nbsp;</p>
 ## samples
 Trained model \
 https://drive.google.com/file/d/19u42pCy3cQgGv9dTHXnSubFth-g3Igc7/view?usp=sharing 
