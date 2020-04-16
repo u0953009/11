@@ -5,7 +5,7 @@
 1. Model Architecture
    - The model uses pre-trained model Inception V3
    - Mixed7 layer in Inception V3 is extracted 
-   - On top of the pre-trained model, classifier layer is built. 
+   - On top of the pre-trained model, classifier layers are built. 
      
      Fully connected layer and sigmoid layer
 
