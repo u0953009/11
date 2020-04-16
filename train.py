@@ -19,20 +19,17 @@ def loadWeight(pixels,path):
         layer.trainable = False
   
     last_layer = pre_trained_model.get_layer('mixed7')
-    #print('last layer output shape:', last_layer.output_shape)
     last_output = last_layer.output
 
     return last_output, pre_trained_model
 
 def configureLayers(last_output, pre_trained_model):
 
-    # Flatten the output layer to 1 dimension
+    
     x = layers.Flatten()(last_output)
-    # Add a fully connected layer with 1,024 hidden units and ReLU activation
+    # Add a classifer layers:1,024 hidden units and ReLU activation
     x = layers.Dense(1024, activation='relu')(x)
-    # Add a dropout rate of 0.2
     x = layers.Dropout(0.2)(x)
-    # Add a final sigmoid layer for classification
     x = layers.Dense(1, activation='sigmoid')(x)
 
     model = Model(pre_trained_model.input, x)
@@ -74,7 +71,7 @@ def imgGenerator(trainpath, validpath, pixels):
     return train_generator, valid_generator
 
 
-def trainModel(model, train_generator, valid_generator):
+def trainModel(model, train_generator, valid_generator, epoch):
     history = model.fit(
         train_generator,
         steps_per_epoch=len(train_generator),
@@ -84,6 +81,26 @@ def trainModel(model, train_generator, valid_generator):
         verbose=2)
     return model
 
+
+def finetune(model, train_generator, valid_generator, epoch):
+  from tensorflow.keras.optimizers import SGD
+
+  unfreeze = False
+
+  # Unfreeze all models after "mixed6"
+  for layer in pre_trained_model.layers:
+    if unfreeze:
+      layer.trainable = True
+    if layer.name == 'mixed6':
+      unfreeze = True
+
+  model.compile(loss='binary_crossentropy',
+              optimizer=SGD(
+                  lr=0.00001, 
+                  momentum=0.9),
+              metrics=['acc'])
+  trainModel(model, train_generator, valid_generator, epoch)
+  return model
 
 mname=sys.argv[3]
 tpath=sys.argv[1]
@@ -96,7 +113,9 @@ last_output, pre_trained_model=loadWeight(pixel, v3path)
 model=configureLayers(last_output, pre_trained_model)
 train_generator, valid_generator=imgGenerator(tpath,vpath,pixel)
 
-model=trainModel(model,train_generator, valid_generator)
+model=trainModel(model,train_generator, valid_generator,5)
+
+model=finetune(model,train_generator, valid_generator,30)
 
 modelpath='models/'+mname
 model.save(modelpath)
