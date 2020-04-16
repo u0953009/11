@@ -37,7 +37,7 @@
    input shape - input shape of the model  
   
    - Train: 700(photo)  Valid: 500(photo), input shape: (150,150,3)
-   - Train: 700(phpot)  Valid: 500(photo), input shape: (350,350,3)
+   - Train: 700(photo)  Valid: 500(photo), input shape: (350,350,3)
    - Train: 700(photo)+500(similation)  Valid: 500(photo), input shape: (350,350,3)
      To increases number of training data, use simulation images.
    - Train: 700(photo)+1007(extracted)  Valid: 500(photo), input shape: (350,350,3)
