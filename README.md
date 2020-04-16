@@ -12,9 +12,8 @@
 2. Data dsecription
    - Images used to train this classifier are photos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
-   - Photos were taken before and after each try.
    - Photo samples
-   
+      Photos were taken before and after each try.
       Majority of images were taken from side(eg., middle image)
 	  
      <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/2018-09-05-1109062018ral_img957.jpg" width="290" height="161"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_pringles_grasp_1_lift_side377.png" width="290" height="163"><img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/IMG_20180905_092459phoneral967.jpg" width="145" height="193">
