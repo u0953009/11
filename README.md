@@ -29,7 +29,7 @@
      - input shape - the input shape of the model  
    - Models
       - Model 1  
-        Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)  
+        Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo), input shape: (150,150,3)  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">  
 	 
       - Model 2  
