@@ -6,7 +6,7 @@
    - The model uses pre-trained model Inception V3.  
    - Mixed7 layer in Inception V3 is extracted.   
    - On top of the pre-trained model, classifier layers are built: Fully connected layer and sigmoid layer.
-   <p>&nbsp;</p>
+       <p>&nbsp;</p>
 **2. Data description**
    - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
