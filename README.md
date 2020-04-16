@@ -23,21 +23,21 @@
        <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15049.jpg" width="303" height="170">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15855.jpg" width="303" height="170">
 	  <p>&nbsp;</p>
 **3. Model reports**  
-     Training configuration  
-      Train - number of images to train the model   
-      Valid - number of images to validate the model  
-      input shape - input shape of the model  
-  
-   - Model 1  
-     Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)
-   - Model 2  
-     Train: 700 (photo),  Valid: 500 (photo), input shape: (350,350,3)
-   - Model 3  
-     Train: 700 (photo) + 500 (similation),  Valid: 500 (photo), input shape: (350,350,3)  
-     To increase the number of training data, simulation images were added.
-   - Model 4  
-     Train: 700 (photo) + 1007 (extracted),  Valid: 500 (photo), input shape: (350,350,3)  
-     To increase the number of training data, images extracted from experiment videos were added.
+   - Training configuration  
+     - Train - number of images to train the model   
+     - Valid - number of images to validate the model  
+     - input shape - input shape of the model  
+   - Models
+    - Model 1  
+      Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)
+    - Model 2  
+      Train: 700 (photo),  Valid: 500 (photo), input shape: (350,350,3)
+    - Model 3  
+      Train: 700 (photo) + 500 (similation),  Valid: 500 (photo), input shape: (350,350,3)  
+      To increase the number of training data, simulation images were added.
+    - Model 4  
+      Train: 700 (photo) + 1007 (extracted),  Valid: 500 (photo), input shape: (350,350,3)  
+      To increase the number of training data, images extracted from experiment videos were added.
 
 
 ## Installation
