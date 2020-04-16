@@ -35,11 +35,11 @@
    Valid - number of images to validate the model
    image dimension - input shape of the model
   
-  - Train: 700(photo)  Valid: 500(photo), input dimension: (150,150,3)
-  - Train: 700(phpot)  Valid: 500(photo), input dimension: (350,350,3)
-  - Train: 700(photo)+500(similation)  Valid: 500(photo), input dimension: (350,350,3)
+   - Train: 700(photo)  Valid: 500(photo), input dimension: (150,150,3)
+   - Train: 700(phpot)  Valid: 500(photo), input dimension: (350,350,3)
+   - Train: 700(photo)+500(similation)  Valid: 500(photo), input dimension: (350,350,3)
      To increases number of training data, use simulation images.
-  - Train: 1707(photo)  Valid: 500(photo), input dimension: (350,350,3)
+   - Train: 1707(photo)  Valid: 500(photo), input dimension: (350,350,3)
      To increases number of training data, extract images from experiment video.
 
 
