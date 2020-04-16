@@ -44,12 +44,12 @@
 >pip install -r requirements.txt  
      
 ## usage
-Model train
+Model training
 >python train.py [train_sample_path] [validation_sample_path] [model_filename]
 
-The output model will be saved in 'models' folder.
-
-Model predict
+The output model will be saved in 'models' folder.  
+<p>&nbsp;</p>
+Model prediction
 >ptyhon predict.py [image_file_folder_path] [model_path]  
 
 ## samples
