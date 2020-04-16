@@ -23,10 +23,10 @@
        <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15049.jpg" width="303" height="170">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15855.jpg" width="303" height="170">
 	  <p>&nbsp;</p>
 **3. Model reports**  
-     Train configuration  
-     Train - number of images to train the model   
-     Valid - number of images to validate the model  
-     input shape - input shape of the model  
+     Training configuration  
+      Train - number of images to train the model   
+      Valid - number of images to validate the model  
+      input shape - input shape of the model  
   
    - Model 1  
      Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)
