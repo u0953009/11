@@ -1,7 +1,7 @@
 # Binary Image classifier using keras
      This classifier is a binary classifier which determines if grasping try is successful or unsuccessful.
 
-## Analysis
+## Model description
 1. Model Architecture
    - The model uses pre-trained model Inception V3
    - Mixed7 layer in Inception V3 is extracted 
