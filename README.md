@@ -45,8 +45,7 @@
       - Model 3  
         Train: 700 (photo) + 500 (similation),  Valid: 500 (photo), input shape: (350,350,3)  
         To increase the number of training data, simulation images were added.
-	   Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo),  input shape: (350,350,3)
-	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">  
+	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.79 to 0.82 over 30 epochs.  
 	 113 out of 143 tests are correct.
 	 
