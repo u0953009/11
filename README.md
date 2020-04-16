@@ -24,9 +24,9 @@
 	  <p>&nbsp;</p>
 **3. Model reports**  
    - Training configuration  
-     - Train - number of images to train the model   
-     - Valid - number of images to validate the model  
-     - input shape - input shape of the model  
+     - Train - the number of images to train the model   
+     - Valid - the number of images to validate the model  
+     - input shape - the input shape of the model  
    - Models
       - Model 1  
         Train: 700 (photo),  Valid: 500 (photo), input shape: (150,150,3)
