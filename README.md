@@ -5,8 +5,8 @@
 1. Model Architecture
    - The model uses pre-trained model Inception V3
    - Mixed7 layer Inception V3 is extracted 
-   - On top of the pre trained model, classifier layer is built. 
-      Fully connected layer and sigmoid layer
+   - On top of the pre-trained model, classifier layer is built. 
+       Fully connected layer and sigmoid layer
 
 2. Data dsecription
    - Images used to train this classifier are phtos of Allegro robotic hand trying to grasp an object.
