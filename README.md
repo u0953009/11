@@ -13,6 +13,7 @@
    - Images used to train this classifier are photos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - Photo samples
+   
       Photos were taken before and after each try.
       Majority of images were taken from side(eg., middle image)
 	  
