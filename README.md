@@ -2,14 +2,14 @@
      This classifier is a binary classifier which determines if grasping try is successful or unsuccessful.
 
 ## Model description
-1. Model Architecture
+**1. Model Architecture
    - The model uses pre-trained model Inception V3
    - Mixed7 layer in Inception V3 is extracted 
    - On top of the pre-trained model, classifier layers are built: 
      
      Fully connected layer and sigmoid layer
 
-2. Data dsecription
+**2. Data dsecription
    - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - Photo samples
@@ -30,7 +30,7 @@
      <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15049.jpg" width="303" height="170">
      <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15855.jpg" width="303" height="170">
 	
-3. Model reports\
+**3. Model reports\
    Train configuration  
    Train - number of images to train the model   
    Valid - number of images to validate the model  
