@@ -42,6 +42,7 @@
          <p>&nbsp;</p>
 ## Installation
 >pip install -r requirements.txt
+
 <br></br>
 ## usage
 Model training
@@ -51,7 +52,8 @@ The output model will be saved in 'models' folder.
 <br></br>
 Model prediction  
 >ptyhon predict.py [image_file_folder_path] [model_path]
-   <br></br>
+
+<br></br>
 ## samples
 Trained model \
 https://drive.google.com/file/d/19u42pCy3cQgGv9dTHXnSubFth-g3Igc7/view?usp=sharing 
