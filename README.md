@@ -42,10 +42,10 @@
      Train: 700 (photo),  Valid: 500 (photo), input shape: (350,350,3)
    - Model 3  
      Train: 700 (photo) + 500 (similation),  Valid: 500 (photo), input shape: (350,350,3)  
-     To increases number of training data, use simulation images.
+     To increase the number of training data, simulation images were used.
    - Model 4  
      Train: 700 (photo) + 1007 (extracted),  Valid: 500 (photo), input shape: (350,350,3)  
-     To increases number of training data, extract images from experiment video.
+     To increase the number of training data, images extracted from experiment videos were used.
 
 
 ## Installation
