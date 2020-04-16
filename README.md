@@ -67,7 +67,7 @@ The output model will be saved in 'models' folder.
 Model prediction  
 >ptyhon predict.py [image_file_folder_path] [model_path]
 
-## Samples
+## Files
 Trained model \
 https://drive.google.com/open?id=1FWcQ0TrORz8ImdYoDcJxHfZ94K-GCKm2 - model 1  
 https://drive.google.com/open?id=1-6AGEURKuotEC49KJMP9sld1tt68hDGR - model 2  
