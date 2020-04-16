@@ -1,5 +1,5 @@
 # Binary Image classifier using keras
-
+     This classifier is a binary classifier which determines if grasping try is successful or unsuccessful.
 
 
 1. Model Architecture
@@ -13,7 +13,6 @@
    - Images used to train this classifier are photos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - Photos were taken before and after each try.
-   - This classifier is a binary classifier which determines if grasping try was successful or unsuccessful.
    - Sample images
    
       Majority of images were taken from side(eg., middle image)
