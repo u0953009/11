@@ -5,8 +5,9 @@
 **1. Model Architecture**
    - The model uses pre-trained model Inception V3.  
    - Inception v3 is a widely-used image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset. (https://cloud.google.com/tpu/docs/inception-v3-advanced)   
-   - Mixed7 layer in Inception V3 is extracted.   
-   - On top of the pre-trained model, classifier layers are built: Fully connected layer and sigmoid layer.
+   - Since top layers of pre-trained model is too specific for the purpose which the pre-trained model was trained for, removed a few top layers of the pre-trained model were removed: from the top to right above mixed7 layer. (https://github.com/u0953009/Binary-Classifier/blob/master/images/inception%20v3/inception.txt)    
+   - On top of the pre-trained model, classifier layers are built: Fully connected layer(1024 units, ReLU), drop out layer(1024, drop rate 0.2) and output layer(1, Sigmoid).  
+   - Fine tuning - Only the added layers were trained first for 10 epochs, and then 
        <p>&nbsp;</p>
 **2. Data description**
    - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images of an Allegro robotic hand trying to grasp an object.
