@@ -33,11 +33,11 @@
      - Valid - the number of images to validate the model  
      - test  - the number of images to test the model
      - input shape - the input shape of the model  
-        The train data was augmented with factors shown below; factors are applied randomly in each epoch.  
+   - The train data was augmented with factors shown below; factors are applied randomly in each epoch.  
 	 <p align="center">  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/augmentation.png" "width="282" height="152">  
 																	 </p>  
-																	    - 143 photos (71 successful + 72 unsuccessful) are used to test.  
+   - 143 photos (71 successful + 72 unsuccessful) are used to test.  
 																	 
 	
 	
