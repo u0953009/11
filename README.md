@@ -72,7 +72,7 @@
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - frwrwf  
+   -    
 ## Installation
 >pip install -r requirements.txt
 
