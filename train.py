@@ -113,7 +113,7 @@ last_output, pre_trained_model=loadWeight(pixel, v3path)
 model=configureLayers(last_output, pre_trained_model)
 train_generator, valid_generator=imgGenerator(tpath,vpath,pixel)
 
-model=trainModel(model,train_generator, valid_generator,5)
+model=trainModel(model,train_generator, valid_generator,10)
 
 model=finetune(model,train_generator, valid_generator,30)
 
