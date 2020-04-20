@@ -46,13 +46,13 @@
         Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo),  input shape: (150,150,3)  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.75 to 0.79 over 30 epochs.  
-	 109 (48 successful + 61 unseuccessful) out of 143 tests are correct.  
+	 109 (48 successful + 61 unseuccessful) out of 143 tests are correct. (accuracy 0.76)  
 	 
       - Model 2  
         Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo),  input shape: (350,350,3)
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.82 to 0.86 over 30 epochs.  
-	 124 (56 successful + 68 unseuccessful) out of 143 tests are correct.
+	 124 (56 successful + 68 unseuccessful) out of 143 tests are correct. (accuracy 0.87)
 	 
 	 
       - Model 3  
@@ -60,7 +60,7 @@
         To increase the number of training data, simulation images were added.
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.79 to 0.82 over 30 epochs.  
-	 114 (46 successful + 68 unseuccessful) out of 143 tests are correct.
+	 114 (46 successful + 68 unseuccessful) out of 143 tests are correct. (accuracy 0.79)
 	 
 	 
       - Model 4  
@@ -68,7 +68,7 @@
         To increase the number of training data, images extracted from experiment videos were added.
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.96 to 0.97 over 30 epochs.  
-	 133 (57 successful + 67 unseuccessful) out of 143 tests are correct.
+	 133 (57 successful + 67 unseuccessful) out of 143 tests are correct. (accuracy 0.93)
 
          <p>&nbsp;</p>
 **4. Conclusion**
