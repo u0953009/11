@@ -4,7 +4,7 @@
 ## Model description
 **1. Model Architecture**
    - The model uses pre-trained model Inception V3.  
-   - Inception v3 is a widely-used image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset.(https://cloud.google.com/tpu/docs/inception-v3-advanced)   
+   - Inception v3 is a widely-used image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset. (https://cloud.google.com/tpu/docs/inception-v3-advanced)   
    - Mixed7 layer in Inception V3 is extracted.   
    - On top of the pre-trained model, classifier layers are built: Fully connected layer and sigmoid layer.
        <p>&nbsp;</p>
