@@ -37,6 +37,7 @@
 	 <p align="center">  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/augmentation.png" "width="282" height="152">  
 																	 </p>  
+																	    - 143 photos (71 successful + 72 unsuccessful) are used to test.  
 																	 
 	
 	
