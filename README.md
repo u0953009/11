@@ -34,10 +34,8 @@
      - test  - the number of images to test the model
      - input shape - the input shape of the model  
         The train data was augmented with factors shown below; factors are applied randomly in each epoch.  
-	<figure class="image">
-	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/augmentation.png" width="282" height="152" description="fwefew">
-	<figcaption>{{description>></figcaption>
-	</figure>  
+	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/augmentation.png" width="282" height="152">  
+	
 	
    - Models
       - Model 1  
