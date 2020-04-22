@@ -81,7 +81,7 @@
    - First of all, insufficient number of training data was the hardest problem to solve in training the model.  
    - Secondly, the dataset is not balanced. 
       - Photos taken from side are the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
-      - In extracted images, images are taken from different angles and they are not balanced as well. In addation, since they are extracted from videos, a few images were necessarily extracted from a try. They are, not same, but simlar images, so this could affect the balance of the dataset.
+      - In extracted images, images are taken from different angles and they are not balanced as well.  
    - Underfitting and overfittings are observed during training models. They appear in different patters depending on different numbers, or different types, of data. Tries to find a more fittable architecture for the dataset is neede.  
    
    
