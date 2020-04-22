@@ -72,7 +72,7 @@
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - During the training, there was the most noticaeble improvement in unsuccessful classification when increasing input dimension from 150x150 to 350x350.  
+   - During the training, there was the most noticeable improvement in unsuccessful classification when increasing input dimension from 150x150 to 350x350.  
    - Adding simulation images to train the model didn't make a drastic change even though more than 50% of the number of original images were added. It seems that simulation images barely helps to improve classification.  
    - When adding extraced images from videos, there was an improvement in sucessuful classification.  
    - Model 4 shows 88% accuracy on the test. It is a moderate number. The model classified unsuccessful photo much better than successful photo.  
