@@ -78,7 +78,7 @@
    - Model 4 shows 88% accuracy on the test. It is a moderate number. The model classified unsuccessful photos much better than successful photos.  
 
 **5. Discussion**
-   - First of all, insufficient training data was the hardest problem to solve in training the model.  
+   - First of all, insufficient number of training data was the hardest problem to solve in training the model.  
    - Secondly, the dataset is not balanced. 
       - Photos taken from side are the mojority of the dataset, and there are only a few photos taken from top. 
       - In extracted images, images are taken from different angles and they are not balanced as well. In addation, since they are extracted from videos, a few images were necessarily extracted from a try. They are, not same, but simlar images, so this could affect the balance of the dataset.
