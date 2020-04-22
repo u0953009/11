@@ -24,7 +24,7 @@
        <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_3m_high_tack_spray_adhesive_grasp_0td1717303.png" width="303" height="227">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_0_3m_high_tack_spray_adhesive_grasp_8_lift_6_880.png" width="303" height="227"> 
          <p>&nbsp;</p>      
      - Extracted image samples from videos  
-       Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unseccessful.    
+       Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unsuccessful.    
        <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15049.jpg" width="303" height="170">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/frame15855.jpg" width="303" height="170">
 	  <p>&nbsp;</p>
 **3. Model reports**  
@@ -46,13 +46,13 @@
         Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo),  input shape: (150,150,3)  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.75 to 0.79 over 30 epochs.  
-	 109 (48 successful + 61 unseuccessful) out of 143 tests are correct. (accuracy 0.76)  
+	 109 (48 successful + 61 unsuccessful) out of 143 tests are correct. (accuracy 0.76)  
 	 
       - Model 2  
         Train: 700 (photo),  Valid: 500 (photo),  test: 143 (photo),  input shape: (350,350,3)
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.82 to 0.86 over 30 epochs.  
-	 114 (46 successful + 68 unseuccessful) out of 143 tests are correct. (accuracy 0.79)
+	 114 (46 successful + 68 unsuccessful) out of 143 tests are correct. (accuracy 0.79)
 	 
 	 
       - Model 3  
@@ -60,7 +60,7 @@
         To increase the number of training data, simulation images were added.
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.79 to 0.82 over 30 epochs.  
-	 114 (46 successful + 68 unseuccessful) out of 143 tests are correct. (accuracy 0.79)
+	 114 (46 successful + 68 unsuccessful) out of 143 tests are correct. (accuracy 0.79)
 	 
 	 
       - Model 4  
@@ -68,11 +68,11 @@
         To increase the number of training data, images extracted from experiment videos were added.
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.96 to 0.97 over 30 epochs.  
-	 127 (57 successful + 67 unseuccessful) out of 143 tests are correct. (accuracy 0.88)
+	 127 (57 successful + 67 unsuccessful) out of 143 tests are correct. (accuracy 0.88)
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - During the training, there was the most noticaeble improvement in uncessful classification when increasing input dimension from 150x150 to 350x350.  
+   - During the training, there was the most noticaeble improvement in unsuccessful classification when increasing input dimension from 150x150 to 350x350.  
    - Adding simulation images to train the model didn't make a drastic change even though more than 50% of the number of original images were added. It seems that simulation images barely helps to improve classification.  
    - When adding extraced images from videos, there was an improvement in sucessuful classification.  
    - Model 4 shows 88% accuracy on the test. It is a moderate number. The model classified unsuccessful photo much better than successful photo.  
