@@ -82,7 +82,7 @@
    - Secondly, the dataset is not balanced. 
       - Photos taken from side are the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
       - In case of the extracted images, though the images are taken from various angles, they are not balanced as well.  
-   - Underfitting and overfittings are observed during training models. They appear in different patters depending on different numbers, or different types, of data. Tries to find a more fittable architecture for the dataset is neede.  
+   - Underfitting and overfittings are observed during training models. They appear in different patters depending on different numbers, or different types, of data. Trying to find a more fittable architecture for the dataset would improve.  
    
    
 ## Installation
