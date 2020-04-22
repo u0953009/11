@@ -15,7 +15,7 @@
    - data samples
      - Photo samples  
        Photos were taken before and after each try.  
-       Majority of images were taken from side (eg., middle image).    
+       Majority of images were taken from the side (eg., middle image).    
        Before try  
        <img src="https://github.com/u0953009/Binary-Classifier/blob/master/images/object_2_mustard_grasp_0rrd862.png" width="319" height="190"> <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/object_4_lego_grasp_0_side36.png" width="319" height="190">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/IMG_20190910_102329671.jpg" width="145" height="190">  
        After try  
@@ -80,7 +80,7 @@
 **5. Discussion**
    - First of all, insufficient number of training data was the hardest problem to solve in training the model.  
    - Secondly, the dataset is not balanced. 
-      - Photos taken from side are the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
+      - Photos taken from the side are the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
       - In case of the extracted images, though the images are taken from various angles, they are not balanced as well.  
    - Obtaining more experiment photos and videos, and techniques to balance the data could be tried for a better accuracy.  
    - Underfitting and overfittings are observed during training the models. They appear in different patterns depending on different numbers, or different types, of data. Trying to find a more suitable model architecture for the dataset would improve.  
