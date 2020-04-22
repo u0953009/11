@@ -82,7 +82,7 @@
    - Secondly, the dataset is not balanced. 
       - Photos taken from the side comprise the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
       - In case of the extracted images, though the images are taken from various angles, they are not balanced either.  
-   - Obtaining more experiment photos and videos, and techniques to balance the data could be tried for a better accuracy.  
+   - It is needed to obtain more experiment photos and videos in order to improve the accuracy. Finding techniques to balance the data is also worth a try.  
    - Underfitting and overfittings are observed during training the models. They appear in different patterns depending on different numbers, or different types, of data. Trying to find a more suitable model architecture for the dataset would improve.  
    
    
