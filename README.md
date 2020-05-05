@@ -74,17 +74,18 @@
          <p>&nbsp;</p>
 **4. Conclusion**
    - During the training, there was noticeable improvement in identifying unsuccessful tries when input dimension was increased from 150x150 to 350x350.  
-   - Adding simulation images to train the model didn't make a drastic change even though more than 50% of the number of original images were added. It seems that simulation images barely help to improve the accuracy of classification.  
-   - When adding extraced images from videos, there was an improvement in classifying successful tries.  
-   - Model 4 shows 88% accuracy on the test. It is a moderate number. The model classified unsuccessful photos much better than successful photos.  
+   - Adding simulation images didn't improve the test accuracy at all even though more than 50% of the number of original images were added. It seems that simulation images barely help to improve the accuracy of classification.  
+   - When adding extraced images from videos, there was a slight improvement.
+   - Model 4 shows 77% accuracy on the test. It is a moderate number. The model classified unsuccessful photos much better than successful photos.  
 
 **5. Discussion**
-   - First of all, insufficient number of training data was the hardest problem to solve in training the model.  
+   - First of all, insufficient number of training data was the most chllanging problem to solve in training the model.  
    - Secondly, the dataset is not balanced. 
       - Photos taken from the side comprise the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
       - In case of the extracted images, though the images are taken from various angles, they are not balanced either.  
+      - Validation accuracy and loss fluctuated a lot. This also could be caused by bias in dataset.
    - It is needed to obtain more experiment photos and videos in order to improve the accuracy. Finding techniques to balance the data is also worth a try.  
-   - Underfitting and overfittings are observed during training the models. They appear in different patterns depending on different numbers, or different types, of data. Using a few different model architectures and comparing the results might be helpful  to find a more suitable architecture for the dataset.    
+   
    
    
 ## Installation
