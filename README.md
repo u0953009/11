@@ -96,9 +96,9 @@
 
 ## Usage
 Model training
->python train.py [train_sample_path] [validation_sample_path] [model_filename]
+>python train.py [train_sample_path] [validation_sample_path] [checkpoint_path]
 
-The output model will be saved in 'models' folder.
+The output weights will be saved in 'checkpoint_path' folder.
 <br></br>
 Model prediction  
 >ptyhon predict.py [image_file_folder_path] [model_path]
