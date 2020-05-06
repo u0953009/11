@@ -8,15 +8,11 @@ import sys
 
 def loadWeight(pixels,path):
 
-    #local_weights_file = r'data/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
-    local_weights_file=path
     
     pre_trained_model = InceptionV3(
-        input_shape=(pixels, pixels, 3), include_top=False, weights=None)
+        input_shape=(pixels, pixels, 1), include_top=False, weights=None)
     pre_trained_model.load_weights(local_weights_file)
 
-    for layer in pre_trained_model.layers:
-        layer.trainable = False
   
     last_layer = pre_trained_model.get_layer('mixed7')
     last_output = last_layer.output
@@ -38,6 +34,9 @@ def configureLayers(last_output, pre_trained_model):
               metrics=['acc'])
     return model
 
+def create_model(pixels,cb):
+  last_output, pre_trained_model= loadWeight(pixels,cb)
+  return configureLayers(last_output,pre_trained_model)
 
 def imgGenerator(trainpath, validpath, pixels):
     train_dir = trainpath
@@ -59,66 +58,52 @@ def imgGenerator(trainpath, validpath, pixels):
     train_generator=train_datagen.flow_from_directory(
         train_dir,
         target_size=(pixels,pixels),
+        color_mode='grayscale',
         batch_size=20,
         class_mode='binary')
 
     valid_generator = val_datagen.flow_from_directory(
         valid_dir,
-        target_size=(pixels, pixels),  
+        target_size=(pixels, pixels),
+        color_mode='grayscale',
         batch_size=20,
         class_mode='binary')
   
     return train_generator, valid_generator
 
 
-def trainModel(model, train_generator, valid_generator, epoch):
+def trainModel(model, train_generator, valid_generator, epoch, cppath):
+    cp_callback = keras.callbacks.ModelCheckpoint(cppath+"/weights.{epoch:02d}.ckpt",
+                                          save_weights_only=True,verbose=1)
     history = model.fit(
         train_generator,
         steps_per_epoch=len(train_generator),
         epochs=1,
         validation_data=valid_generator,
         validation_steps=len(valid_generator),
+        callbacks=[cp_callback],
         verbose=2)
     return model
 
 
-def finetune(model, train_generator, valid_generator, epoch):
-  from tensorflow.keras.optimizers import SGD
 
-  unfreeze = False
 
-  # Unfreeze all models after "mixed6"
-  for layer in pre_trained_model.layers:
-    if unfreeze:
-      layer.trainable = True
-    if layer.name == 'mixed6':
-      unfreeze = True
-
-  model.compile(loss='binary_crossentropy',
-              optimizer=SGD(
-                  lr=0.00001, 
-                  momentum=0.9),
-              metrics=['acc'])
-  trainModel(model, train_generator, valid_generator, epoch)
-  return model
-
-mname=sys.argv[3]
+mpath=sys.argv[3]
 tpath=sys.argv[1]
 vpath=sys.argv[2]
-v3path=r'v3/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
+
+
 pixel=350
 
 
-last_output, pre_trained_model=loadWeight(pixel, v3path)
-model=configureLayers(last_output, pre_trained_model)
+model=create_model(pixel)
+
 train_generator, valid_generator=imgGenerator(tpath,vpath,pixel)
 
-model=trainModel(model,train_generator, valid_generator,10)
+model=trainModel(model,train_generator, valid_generator,50,mpath)
 
-model=finetune(model,train_generator, valid_generator,30)
 
-modelpath='models/'+mname
-model.save(modelpath)
+
 
 
 

@@ -15,6 +15,7 @@ test_datagen=ImageDataGenerator(
 test_generator=test_datagen.flow_from_directory(
     fpath,
     target_size=(pixel,pixel),
+    color_mode='grayscale',
     batch_size=1,
     class_mode='binary')
 
