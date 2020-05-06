@@ -85,9 +85,10 @@
    - Secondly, the dataset is not balanced. 
       - Photos taken from the side comprise the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
       - In case of the extracted images, though the images are taken from various angles, they are not balanced either.  
-      - Validation accuracy and loss fluctuated a lot. This also could be caused by bias in dataset.
    - It is needed to obtain more experiment photos and videos in order to improve the accuracy. Finding techniques to balance the data is also worth a try.  
-   
+   - Validation accuracy and loss fluctuated a lot. 
+      - This could be caused by bias in dataset. 
+      - Or, the inception V3 was originally trained on color images, so the architecture of this model might not be suitable for grayscale images.  
    
    
 ## Installation
