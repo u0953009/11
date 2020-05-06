@@ -46,8 +46,8 @@
    - There were 4 differnet types of training depending on the number and the type of data, and input shape of the model architecture.
       - Training 1 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (150,150,1)  
       - Training 2 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
-      - Training 3 - Train : 700 (photo) + 1000 (simulation), valid : 500 (photo), test : 143 (photo), input shape : (350,350,3)  
-      - Training 4 - Train : 700 (photo) + 1007 (extracted),  Valid: 500 (photo), test : 143 (photo), input shape : (350,350,3)  
+      - Training 3 - Train : 700 (photo) + 1000 (simulation), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
+      - Training 4 - Train : 700 (photo) + 1007 (extracted),  Valid: 500 (photo), test : 143 (photo), input shape : (350,350,1)  
    - 143 photos (71 successful + 72 unsuccessful) are used to test.  
    - When testing, a few models with low loss and high accuracy were selected and only the best result in each training are described below.  
 
