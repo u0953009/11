@@ -1,4 +1,4 @@
-# Binary Image classifier using keras for Examining Robotic Grasp Success
+# Grayscale Image Binary classifier using keras for Examining Robotic Grasp Success  
      This classifier is a binary classifier which determines if a grasping try of the robotic hand is successful or not.
 
 ## Model description
