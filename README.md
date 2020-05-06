@@ -56,18 +56,18 @@
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">    
 	 97 (31 successful + 66 unsuccessful) out of 143 tests are correct. (accuracy 0.68)  
 	 
-      - Model 2  
+      - Training 2  
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350/loss.png" width="352"        height="238">    
 	 106 (43 successful + 63 unsuccessful) out of 143 tests are correct. (accuracy 0.74)
 	 
 	 
-      - Model 3  
+      - Training 3  
         To increase the number of training data, simulation images were added.
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">   
 	 103 (46 successful + 57 unsuccessful) out of 143 tests are correct. (accuracy 0.72)
 	 
 	 
-      - Model 4  
+      - Training 4  
         To increase the number of training data, images extracted from experiment videos were added.
 	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.96 to 0.97 over 30 epochs.  
