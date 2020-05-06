@@ -44,7 +44,7 @@
    - 700 photos (300 successful + 400 unusccessful) and 1007 extracted images (562 successful + 445 unsuccessful) are used to train.
    - 1000 simulation images (500 successful + 500 unsuccessful) are used to train.  
    - There were 4 differnet types of training depending on the number and the type of data, and input shape of the model architecture.
-      - Training 1 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shaep : (150,150,1)  
+      - Training 1 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (150,150,1)  
       - Training 2 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
       - Training 3 - Train : 700 (photo) + 1000 (simulation), valid : 500 (photo), test : 143 (photo) input shape: (350,350,3)  
       - Training 4 - Train : 700 (photo) + 1007 (extracted),  Valid: 500 (photo), test : 143 (photo) input shape: (350,350,3)  
