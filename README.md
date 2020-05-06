@@ -8,7 +8,7 @@
    - Aa few top layers of Inception V3 are removed: from the top to right above mixed7 layer. (https://github.com/u0953009/Binary-Classifier/blob/master/images/inception%20v3/inception.txt)    
    - On top of the pre-trained model, classification layers are built: Fully connected layer (1024 units, ReLU), drop out layer (1024, drop rate 0.3) and output layer (1, Sigmoid).  
    - The weights of Inception V3 was not loaded. 
-     - Typically, both the architecture and the weights of Inception a pre trained model are used, but the weights of Inception V3 were not loaded here. The weights of Inception V3 could not be loaded when grayscale images were used as input.  
+     - Typically, both the architecture and the weights of a pre-trained model are used, but the weights of Inception V3 were not loaded here. The weights of Inception V3 could not be loaded when grayscale images were used as input.  
        <p>&nbsp;</p>
 **2. Data description**
    - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images from videos of an Allegro robotic hand trying to grasp an object.
