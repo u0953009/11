@@ -49,7 +49,7 @@
       - Training 3 - Train : 700 (photo) + 1000 (simulation), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
       - Training 4 - Train : 700 (photo) + 1007 (extracted),  Valid: 500 (photo), test : 143 (photo), input shape : (350,350,1)  
    - 143 photos (71 successful + 72 unsuccessful) are used to test.  
-   - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best result of them is described below.   
+   - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
 
    - Models
       - Training 1   
