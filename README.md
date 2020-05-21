@@ -1,5 +1,5 @@
 # Grayscale Image Binary classifier using keras for Examining Robotic Grasp Success  
-     Focus on grayscale image binary classifier continueing on https://github.com/u0953009/Binary-Classifier.
+     Focus on grayscale image binary classifier continueing on (https://github.com/u0953009/Binary-Classifier).
 
 ## Model description
 **1. Model Architecture**
