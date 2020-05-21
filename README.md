@@ -44,7 +44,7 @@
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
 
    - architecures
-      - AlexNet, input shape (227, 227, 3)
+      - AlexNet, input shape (227, 227, 3)  
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">    
 	 97 (31 successful + 66 unsuccessful) out of 143 tests are correct. (accuracy 0.68)  
 	 
