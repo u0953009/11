@@ -48,7 +48,8 @@
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 201 ( 90 successful + 111 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
 	 
-      - AlexNet, input shape (227, 227, 3), fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
+      - AlexNet, input shape (227, 227, 3),  
+         fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/loss.png" width="352"        height="238">    
 	 205 (93 successful + 112 unsuccessful) out of 236 tests are correct. (accuracy 0.86)
 	 
