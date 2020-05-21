@@ -34,22 +34,17 @@
      - input shape - the input shape of the model  
    - The train data was augmented with factors shown below; factors are applied randomly in each epoch.  
 	 <p align="center">  
-	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/augmentation.png" "width="282" height="152">  
+	 <img src="https://github.com/u0953009/images/blob/master/bcgray/augmentation.png" "width="282" height="152">  
 																	 </p>  
 																	 
 																	 
-   - 700 photos (300 successful + 400 unusccessful) and 1007 extracted images (562 successful + 445 unsuccessful) are used to train.
-   - 1000 simulation images (500 successful + 500 unsuccessful) are used to train.  
-   - There were 4 differnet types of training depending on the number and the type of data, and input shape of the model architecture.
-      - Training 1 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (150,150,1)  
-      - Training 2 - Train : 700 (photo), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
-      - Training 3 - Train : 700 (photo) + 1000 (simulation), valid : 500 (photo), test : 143 (photo), input shape : (350,350,1)  
-      - Training 4 - Train : 700 (photo) + 1007 (extracted),  Valid: 500 (photo), test : 143 (photo), input shape : (350,350,1)  
-   - 143 photos (71 successful + 72 unsuccessful) are used to test.  
+   - 1645 photos (793 successful + 852 unsuccessful) are used to train.
+   - 469 photos (225 successful + 244 unsuccessful_ are used to validate  
+   - 236 photos (115 successful + 121 unsuccessful) are used to test.  
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
 
-   - Models
-      - Training 1   
+   - architecures
+      - AlexNet, input shape (227, 227, 3)
 	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/150/loss.png" width="352"        height="238">    
 	 97 (31 successful + 66 unsuccessful) out of 143 tests are correct. (accuracy 0.68)  
 	 
