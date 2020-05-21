@@ -4,8 +4,7 @@
 ## Model description
 **1. Model Architecture**
    - Existing architecures were used to train: AlexNet, Inception V3, InceptionResV2, VGG16. 
-   - Top layers of each architecture are replaced.
-   - Except AlexNet, each architecture is used both with and without pre-trained weights.
+   - Different architecures and ways were tried. (e.g, different input shape on the same architecture)
        <p>&nbsp;</p>
 **2. Data description**
    - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images from videos of an Allegro robotic hand trying to grasp an object.
@@ -46,23 +45,22 @@
    - architecures
       - AlexNet, input shape (227, 227, 3)  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
-	 201 ( 90 successful + 111 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
+	 201 (90/115 successful + 111/121 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
 	 
-      - AlexNet, input shape (227, 227, 3),  
+      - AlexNet, input shape (227, 227, 3)  
          fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/loss.png" width="352"        height="238">    
-	 205 (93 successful + 112 unsuccessful) out of 236 tests are correct. (accuracy 0.86)
+	 205 (93/115 successful + 112/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)
 	 
 	 
-      - Training 3  
-        To increase the number of training data, simulation images were added.
-	 <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350sim/loss.png" width="352"        height="238">   
-	 103 (46 successful + 57 unsuccessful) out of 143 tests are correct. (accuracy 0.72)
-	 
-	 
-      - Training 4  
-        To increase the number of training data, images extracted from experiment videos were added.
-	  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/accuracy.png" width="352"        height="238">  <img src="https://raw.githubusercontent.com/u0953009/Binary-Classifier/master/images/350ext/loss.png" width="352"        height="238">  
+      - Inception V3, input shape (350, 350, 3)    
+        Pre-trained weight not loaded  
+	A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
+	 <img src="https://github.com/u0953009/images/blob/master/bcgray/v3withoutweight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3withoutweight/loss.png" width="352"        height="238">   
+	 185 (83/115 successful + 102/121 unsuccessful) out of 236 tests are correct. (accuracy 0.78)  
+       
+       - Inception V3, input shape (350, 350, 3)  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/loss.png" width="352"        height="238">  
 	 Accuracy range is from 0.96 to 0.97 over 30 epochs.  
 	 111 (44 successful + 67 unsuccessful) out of 143 tests are correct. (accuracy 0.77)
 
