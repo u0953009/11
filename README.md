@@ -60,9 +60,24 @@
 	 185 (83/115 successful + 102/121 unsuccessful) out of 236 tests are correct. (accuracy 0.78)  
        
        - Inception V3, input shape (350, 350, 3)  
-	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/loss.png" width="352"        height="238">  
-	 Accuracy range is from 0.96 to 0.97 over 30 epochs.  
-	 111 (44 successful + 67 unsuccessful) out of 143 tests are correct. (accuracy 0.77)
+         Pre-trained weight loaded  
+	 A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)   
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/loss.png" width="352"        height="238">    
+	 212 (96/115 successful + 116/121 unsuccessful) out of 236 tests are correct. (accuracy 0.89)  
+	 
+	 
+	 - Inception Res V2, input shape (150, 150, 3)      
+           Pre-trained weight loaded  
+	   A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.3 drop out rate + 1 unit output layer (sigmoid)  
+	 <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres150/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres150/loss.png" width="352"        height="238">   
+	 203 (94/115 successful + 109/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)  
+	 
+	 - Inception Res V2, input shape (350, 350, 3)      
+           Pre-trained weight loaded  
+	   A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.3 drop out rate + 1 unit output layer (sigmoid)  
+	 <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/loss.png" width="352"        height="238">   
+	 214 (106/115 successful + 108/121 unsuccessful) out of 236 tests are correct. (accuracy 0.90)  
+	 
 
          <p>&nbsp;</p>
 **4. Conclusion**
