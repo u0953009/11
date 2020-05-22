@@ -10,10 +10,10 @@
    - Images used to train this classifier are (1) photos (2) extracted images from videos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - All photos and images used to train and test are grayscale.
-   - data samples
+   - Data samples
      - Photo samples  
        Photos were taken before and after each try.  
-       Majority of images were taken from the side (eg., middle image).    
+       Majority of images were taken from the side (e.g., middle image).    
        Before try  
        <img src="https://github.com/u0953009/images/blob/master/bcgray/object_2_mustard_grasp_0rrd862.png" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_4_lego_grasp_0_side36.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20190910_102329671.jpg" width="145" height="190">  
        After try  
