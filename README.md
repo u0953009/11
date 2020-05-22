@@ -93,6 +93,10 @@
    - Inception Res V2 shows the best accuracy.  
    - The accuracy of AlexNet is about 85% and the accuracy of Inception Res V2 is about 90%. Thus, considering the prediction time, AlexNet could perform better.  
    
+**6. Previous work**  
+   - This grayscale image binary classifier is built based on my previous work on RGB image binary classifier for examining robotic grasp success. Considerations on the amount and balance of data, the size of input shape, etc. are discussed in  
+     https://github.com/u0953009/Binary-Classifier.  
+   
    
    
    
