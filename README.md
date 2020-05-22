@@ -42,7 +42,7 @@
 
    - Architecures
       - AlexNet, input shape (227, 227, 3)   
-         Pre-trained weight not loaded
+         Pre-trained weight not loaded  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 201 (90/115 successful + 111/121 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
 	 
