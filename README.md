@@ -7,7 +7,7 @@
    - Different architecures and ways were tried. (e.g, different input shape on the same architecture)
        <p>&nbsp;</p>
 **2. Data description**
-   - Images used to train this classifier are (1) photos (2) simulation images (3) extracted images from videos of an Allegro robotic hand trying to grasp an object.
+   - Images used to train this classifier are (1) photos (2) extracted images from videos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - All photos and images used to train and test are grayscale.
    - data samples
@@ -18,8 +18,6 @@
        <img src="https://github.com/u0953009/images/blob/master/bcgray/object_2_mustard_grasp_0rrd862.png" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_4_lego_grasp_0_side36.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20190910_102329671.jpg" width="145" height="190">  
        After try  
        <img src="https://github.com/u0953009/images/blob/master/bcgray/2018-09-05-1109062018ral_img957.jpg" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_0_pringles_grasp_1_lift_side377.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20180905_092459phoneral967.jpg" width="145" height="190"><p>&nbsp;</p>
-     - Simulation image samples  
-       <img src="https://github.com/u0953009/images/blob/master/bcgray/object_0_3m_high_tack_spray_adhesive_grasp_0td1717303.png" width="303" height="227">  <img src="https://github.com/u0953009/images/blob/master/bcgray/object_0_3m_high_tack_spray_adhesive_grasp_8_lift_6_880.png" width="303" height="227"> 
          <p>&nbsp;</p>      
      - Extracted image samples from videos  
        Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unsuccessful.    
