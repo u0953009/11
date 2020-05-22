@@ -27,8 +27,8 @@
    - Training configuration  
      - Train - the number of images to train the model   
      - Valid - the number of images to validate the model  
-     - test  - the number of images to test the model
-     - input shape - the input shape of the model  
+     - Test  - the number of images to test the model
+     - Input shape - the input shape of the model  
    - The train data was augmented with factors shown below; factors are applied randomly in each epoch.  
 	 <p align="center">  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/augmentation.png" "width="282" height="152">  
@@ -36,7 +36,7 @@
 																	 
 																	 
    - 1645 photos (793 successful + 852 unsuccessful) are used to train.
-   - 469 photos (225 successful + 244 unsuccessful_ are used to validate  
+   - 469 photos (225 successful + 244 unsuccessful) are used to validate  
    - 236 photos (115 successful + 121 unsuccessful) are used to test.  
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
 
