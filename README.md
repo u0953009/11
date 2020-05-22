@@ -4,7 +4,7 @@
 ## Model description
 **1. Model Architecture**
    - Existing architecures were used to train: AlexNet, Inception V3, InceptionResV2, VGG16. 
-   - Variations of existing architecures were used to train. Detailed description of each architecture is explained in **3. Model Reports**.
+   - Variations of existing architecures were used to train. Detailed description of each architecture is explained in 3. Model Reports.
        <p>&nbsp;</p>
 **2. Data description**
    - Images used to train this classifier are (1) photos (2) extracted images from videos of an Allegro robotic hand trying to grasp an object.
