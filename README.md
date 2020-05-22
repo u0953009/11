@@ -83,7 +83,7 @@
 **4. Conclusion**
    - Models with pre-trained weights tends to show higher accuracy.
    - Greater dimension of input shape tends to show higher accuracy.
-   - Training and prediction time of the AlexNet was the shortest among used architectures.
+   - Training and prediction time of the AlexNet was the shortest among the architectures used.  
    - Accuracy of Inception Res V2 with input shape (350, 350, 3) was the highest.
    
 
