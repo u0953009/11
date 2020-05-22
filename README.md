@@ -89,7 +89,7 @@
 
 **5. Discussion**
    - Keras doesn't provide pre-trained model for AlexNet, so it was used without loading weights. If pre-trained weights can be found, its accuracy could improve.  
-   - Average training and prediction times for grayscale images takes less than those for RGB images
+   - Average training and prediction times for grayscale images are less than those for RGB images
    - Inception Res V2 shows the best accuracy, but the accuracy of Inception V3 is very close.
    - The accuracy of AlexNet is about 85% and the accuracy of Inception Res V2 is about 90%. Thus, considering the prediction time, AlexNet could perform better.  
    
