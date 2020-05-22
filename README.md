@@ -41,11 +41,13 @@
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
 
    - Architecures
-      - AlexNet, input shape (227, 227, 3)  
+      - AlexNet, input shape (227, 227, 3) 
+         Pre-trained weight not loaded
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 201 (90/115 successful + 111/121 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
 	 
       - AlexNet, input shape (227, 227, 3)  
+          Pre-trained weight not loaded
          Fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/loss.png" width="352"        height="238">    
 	 205 (93/115 successful + 112/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)
