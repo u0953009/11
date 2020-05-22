@@ -81,20 +81,18 @@
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - During the training, there was noticeable improvement in identifying unsuccessful tries when input dimension was increased from 150x150 to 350x350.  
-   - Adding simulation images didn't improve the test accuracy at all even though more than 50% of the number of original images were added. It seems that simulation images barely help to improve the accuracy of classification.  
-   - When adding extraced images from videos, there was a slight improvement.
-   - Model 4 shows 77% accuracy on the test. It is a moderate number. The model classified unsuccessful photos much better than successful photos.  
+   - Models with pre-trained weights tends to show higher accuracy.
+   - Greater dimension of input shape tends to show higher accuracy.
+   - Training and prediction time of the AlexNet was the shortest among other architectures.
+   - Accuracy of Inception Res V2 with input shape (350, 350, 3) was the highest.
+   
 
 **5. Discussion**
-   - First of all, insufficient number of training data was the most chllanging problem to solve in training the model.  
-   - Secondly, the dataset is not balanced. 
-      - Photos taken from the side comprise the majority of the dataset, while photos taken from different angles, such as from the top, are relatively few.  
-      - In case of the extracted images, though the images are taken from various angles, they are not balanced either.  
-   - Validation accuracy and loss fluctuated a lot. This could be caused by bias in dataset.  
-   - It is needed to obtain more experiment photos and videos in order to improve the accuracy. Finding techniques to balance the data is also worth a try.  
+   - Average training and prediction times for grayscale images takes shorter than those for RGB images
+   - Inception Res V2 shows the best accuracy, but the accuracy of Inception V3 is very close.
+   - The accuracy of AlexNet is about 85% and the accuracy of Inception Res V2 is about 90%. Thus, considering the prediction time, AlexNet could perform better.  
    
- 
+   
    
    
 ## Installation
