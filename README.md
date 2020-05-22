@@ -1,6 +1,5 @@
 # Grayscale Image Binary classifier using keras for Examining Robotic Grasp Success  
-      This classifier is a binary classifier, based on gray scale images,  
-      which determines if a grasping try of the robotic hand is successful or not.
+      A binary classifier, based on gray scale images, which determines if a grasping try of the robotic hand is successful or not.
 ## Model description
 **1. Model Architecture**
    - Existing architecures were used to train: AlexNet, Inception V3, InceptionResV2, VGG16. 
