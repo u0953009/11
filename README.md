@@ -17,8 +17,9 @@
        Before try  
        <img src="https://github.com/u0953009/images/blob/master/bcgray/object_2_mustard_grasp_0rrd862.png" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_4_lego_grasp_0_side36.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20190910_102329671.jpg" width="145" height="190">  
        After try  
-       <img src="https://github.com/u0953009/images/blob/master/bcgray/2018-09-05-1109062018ral_img957.jpg" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_0_pringles_grasp_1_lift_side377.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20180905_092459phoneral967.jpg" width="145" height="190"><p>&nbsp;</p>     
-     - Extracted image samples from videos  
+       <img src="https://github.com/u0953009/images/blob/master/bcgray/2018-09-05-1109062018ral_img957.jpg" width="319" height="190"> <img src="https://github.com/u0953009/images/blob/master/bcgray/object_0_pringles_grasp_1_lift_side377.png" width="319" height="190">  <img src="https://github.com/u0953009/images/blob/master/bcgray/IMG_20180905_092459phoneral967.jpg" width="145" height="190">  
+       
+      - Extracted image samples from videos  
        Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unsuccessful.    
        <img src="https://github.com/u0953009/images/blob/master/bcgray/frame15049.jpg" width="303" height="170">  <img src="https://github.com/u0953009/images/blob/master/bcgray/frame15855.jpg" width="303" height="170">
 	  <p>&nbsp;</p>
