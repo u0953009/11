@@ -1,4 +1,4 @@
-# Grayscale Image Binary classifier using keras for Examining Robotic Grasp Success  
+# Grayscale Image Binary Classifier using Keras for Examining Robotic Grasp Success  
       A binary classifier, based on gray scale images, which determines if a grasping try of the robotic hand 
       is successful or not.
 ## Model description
@@ -6,7 +6,7 @@
    - Existing architecures were used to train: AlexNet, Inception V3, InceptionResV2, VGG16. 
    - Variations of existing architecures were used to train. They are discussed in more detail in Section 3 Model Reports.  
        <p>&nbsp;</p>
-**2. Data description**
+**2. Data Description**
    - Images used to train this classifier are (1) photos (2) extracted images from videos of an Allegro robotic hand trying to grasp an object.
    - After the robotic hand tries to grasp, if it is successful it has an object in hand. Otherwise, an object is on the desk or floor.
    - All photos and images used to train and test are grayscale.
@@ -23,7 +23,7 @@
        Since images were extracted from video, there are images that capture moments the robotic hand is on the way to grab an object (not just before or after try). And these images are labeled as unsuccessful.    
        <img src="https://github.com/u0953009/images/blob/master/bcgray/frame15049.jpg" width="303" height="170">  <img src="https://github.com/u0953009/images/blob/master/bcgray/frame15855.jpg" width="303" height="170">
 	  <p>&nbsp;</p>
-**3. Model reports**  
+**3. Model Reports**  
    - Training configuration  
      - Train - the number of images to train the model   
      - Valid - the number of images to validate the model  
@@ -110,7 +110,7 @@
    
    
    
-**6. Previous work**  
+**6. Previous Work**  
    - This grayscale image binary classifier is built based on my previous work on RGB image binary classifier for examining robotic grasp success. Considerations on the amount and balance of data, the size of input shape, etc. are discussed in  
      https://github.com/u0953009/Binary-Classifier.  
    
