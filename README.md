@@ -58,7 +58,7 @@
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 216 (113/115 successful + 103/121 unsuccessful) out of 236 tests are correct. (accuracy 0.91)  
 	 
-      - VGG16, input shape (227, 227, 3)  
+      - VGG16, input shape (224, 224, 3)  
           Pre-trained weight loaded  
           Fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16w/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16w/loss.png" width="352"        height="238">    
