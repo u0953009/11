@@ -105,6 +105,9 @@
    - Keras doesn't provide pre-trained model for AlexNet, so it was used without loading weights.  
    - Average training and prediction times for grayscale images are less than those for RGB images. 
    - Grayscale images have less dimension of data than RGB images, so for grayscale images, relatively simple architecture seems better for them.  
+   - In VGG16 with loaded weight, only fully connected layers were trained and its accuracy was about 86%. When weights are not loaded, all layers were trained and accuracy was about 91%. However, in Inception V3, when weights were loaded, the accuracy was higher. When pre-trained architecture is less complicated, training only fully connected layers don't seem to be more efficient way.  
+   
+   
    
    
 **6. Previous work**  
