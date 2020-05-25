@@ -102,7 +102,7 @@
    
 
 **5. Discussion**
-   - Keras doesn't provide pre-trained model for AlexNet, so it was used without loading weights. If pre-trained weights are available, its accuracy could improve.  
+   - Keras doesn't provide pre-trained model for AlexNet, so it was used without loading weights.  
    - Average training and prediction times for grayscale images are less than those for RGB images. 
    - Grayscale images have less dimension of data than RGB images, so for grayscale images, relatively simple architecture seems better for them.  
    
