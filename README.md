@@ -98,7 +98,7 @@
    - VGG16 shows the better accuracy when pre-trained weights are not used.
    - Greater dimension of input shape tends to show higher accuracy.
    - Training and prediction time of the AlexNet was the shortest among the architectures used.  
-   - Accuracy of Inception VGG16 without weights loaded was the highest.
+   - Accuracy of VGG16 without weights loaded was the highest.
    
 
 **5. Discussion**
