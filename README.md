@@ -94,17 +94,18 @@
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - Models with pre-trained weights tends to show higher accuracy.
+   - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.\
+   - VGG16 shows the better accuracy when pre-trained weights are not used.
    - Greater dimension of input shape tends to show higher accuracy.
    - Training and prediction time of the AlexNet was the shortest among the architectures used.  
-   - Accuracy of Inception Res V2 with input shape (350, 350, 3) was the highest.
+   - Accuracy of Inception VGG16 without weights loaded was the highest.
    
 
 **5. Discussion**
    - Keras doesn't provide pre-trained model for AlexNet, so it was used without loading weights. If pre-trained weights are available, its accuracy could improve.  
-   - Average training and prediction times for grayscale images are less than those for RGB images.
-   - Inception Res V2 shows the best accuracy.  
-   - The accuracy of AlexNet is about 85% and the accuracy of Inception Res V2 is about 90%. Thus, considering the prediction time, AlexNet could perform better.  
+   - Average training and prediction times for grayscale images are less than those for RGB images. 
+   - Grayscale images have less dimension of data than RGB images, so for grayscale images, relatively simple architecture seems better for them.  
+   
    
 **6. Previous work**  
    - This grayscale image binary classifier is built based on my previous work on RGB image binary classifier for examining robotic grasp success. Considerations on the amount and balance of data, the size of input shape, etc. are discussed in  
