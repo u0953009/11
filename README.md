@@ -1,4 +1,4 @@
-# Grayscale Image Binary Classifier using Keras for Examining Robotic Grasp Success  
+# Grayscale Image Binary Classifier Using Keras for Examining Robotic Grasp Success  
       A binary classifier, based on gray scale images, which determines if a grasping try of the robotic hand 
       is successful or not.
 ## Model description
