@@ -94,7 +94,7 @@
 
          <p>&nbsp;</p>
 **4. Conclusion**
-   - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.\
+   - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.  
    - VGG16 shows the better accuracy when pre-trained weights are not used.
    - Greater dimension of input shape tends to show higher accuracy.
    - Training and prediction time of the AlexNet was the shortest among the architectures used.  
