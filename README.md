@@ -110,10 +110,10 @@
    
    
    
-**6. Previous Work**  
+**6. Related Works**  
    - This grayscale image binary classifier is built based on my previous work on RGB image binary classifier for examining robotic grasp success. Considerations on the amount and balance of data, the size of input shape, etc. are discussed in  
      https://github.com/u0953009/Binary-Classifier.  
-   
+   - The video binary classifier for examining robotic grasp sucess is built based on this grayscale image binary classifier. The details are discussed in https://github.com/u0953009/Video-Prediction  
    
    
    
