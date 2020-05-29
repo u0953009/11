@@ -161,7 +161,7 @@ https://drive.google.com/open?id=1-zJdlzQq3EmMfq3Ieaey1txfu70mrCQl
 https://drive.google.com/open?id=1-3QBERRAdpoEE9-UhT18V18-pxmbTx8d - Inception ResNet V2, (150,150,3) input_shape  
 
 
-https://drive.google.com/open?id=18a0ccjb-_6AhurhaVOQ70B0ak6hmVgQy
+https://drive.google.com/open?id=18a0ccjb-_6AhurhaVOQ70B0ak6hmVgQy  
 https://drive.google.com/open?id=1-1TCy3T5qEGkn4zlSmxfp3SIzjGaHsiw - Inception ResNet v2, (350,350,3) input_shape  
 
 
