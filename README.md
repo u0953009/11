@@ -112,9 +112,8 @@
 	 214 (106/115 successful + 108/121 unsuccessful) out of 236 tests are correct. (accuracy 0.90)  
 	 <p align="center">  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/test.png" width="352"        height="238">  
-	 
-
-    <p>&nbsp;</p>
+	  <p>&nbsp;</p>  
+	  
 **4. Conclusion**
    - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.  
    - VGG16 shows the better accuracy when pre-trained weights are not used.
