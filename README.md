@@ -39,6 +39,11 @@
    - 469 photos (225 successful + 244 unsuccessful) are used to validate  
    - 236 photos (115 successful + 121 unsuccessful) are used to test.  
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
+   - Test result graph
+	- Left half side is the output values of successful data test set.  
+ 	- Right half side is the output values of unsuccessful data test set.  
+	- If the output value is less than 0.5, the classifier judges as successful and the and the value is marked as blue in the graph. Otherwise, the classifier judges as unsuccessful and the value is marked as red in the graph.  
+	
 
    - Architecures
       - AlexNet, input shape (227, 227, 3)   
