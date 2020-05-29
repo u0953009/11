@@ -114,7 +114,7 @@
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/test.png" width="352"        height="238">  
 	 
 
-   <p>&nbsp;</p>
+    <p>&nbsp;</p>
 **4. Conclusion**
    - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.  
    - VGG16 shows the better accuracy when pre-trained weights are not used.
