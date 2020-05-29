@@ -39,7 +39,7 @@
    - 469 photos (225 successful + 244 unsuccessful) are used to validate  
    - 236 photos (115 successful + 121 unsuccessful) are used to test.  
    - In each training, a few models, over 50 epochs, with low loss and high accuracy were selected. Tests were done with these models and only the best results of them are described below.   
-   - Test result graph
+   - Test result graph  
 	- Left half side is the output values of successful data test set.  
  	- Right half side is the output values of unsuccessful data test set.  
 	- If the output value is less than 0.5, the classifier judges as successful and the and the value is marked as blue in the graph. Otherwise, the classifier judges as unsuccessful and the value is marked as red in the graph.  
@@ -50,24 +50,33 @@
          Pre-trained weight not loaded  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 201 (90/115 successful + 111/121 unsuccessful) out of 236 tests are correct. (accuracy 0.85)  
+	  <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/test.png" width="352"        height="238">  
 	 
       - AlexNet, input shape (227, 227, 3)  
           Pre-trained weight not loaded  
          Fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16/loss.png" width="352"        height="238">    
 	 205 (93/115 successful + 112/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)  
+	  <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/alexdrop/test.png" width="352"        height="238">  
 
       - VGG16, input shape (224, 224, 3)   
          Pre-trained weight not loaded  
 	 Fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/alex/loss.png" width="352"        height="238">    
 	 216 (113/115 successful + 103/121 unsuccessful) out of 236 tests are correct. (accuracy 0.91)  
+	  <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16/test.png" width="352"        height="238">  
 	 
       - VGG16, input shape (224, 224, 3)  
           Pre-trained weight loaded  
           Fully connected layers are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16w/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16w/loss.png" width="352"        height="238">    
 	 204 (97/115 successful + 107/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)  
+	 <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/vgg16w/test.png" width="352"        height="238">  
+	 
 	 
 	 
 	 
@@ -76,12 +85,16 @@
 	A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/v3withoutweight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3withoutweight/loss.png" width="352"        height="238">   
 	 185 (83/115 successful + 102/121 unsuccessful) out of 236 tests are correct. (accuracy 0.78)  
+	 <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3withoutweight/test.png" width="352"        height="238">  
        
        - Inception V3, input shape (350, 350, 3)  
          Pre-trained weight loaded  
 	 A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.2 drop out rate + 1 unit output layer (sigmoid)   
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/loss.png" width="352"        height="238">    
 	 212 (96/115 successful + 116/121 unsuccessful) out of 236 tests are correct. (accuracy 0.89)  
+	 <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/v3weight/test.png" width="352"        height="238">  
 	 
 	 
 	 - Inception Res V2, input shape (150, 150, 3)      
@@ -89,12 +102,16 @@
 	   A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.3 drop out rate + 1 unit output layer (sigmoid)  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres150/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres150/loss.png" width="352"        height="238">   
 	 203 (94/115 successful + 109/121 unsuccessful) out of 236 tests are correct. (accuracy 0.86)  
+	 <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres150/test.png" width="352"        height="238">  
 	 
 	 - Inception Res V2, input shape (350, 350, 3)      
            Pre-trained weight loaded  
 	   A few top layers + fully connected layers in the original architecture are replaced with 1024 hidden units layer with 0.3 drop out rate + 1 unit output layer (sigmoid)  
 	 <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/acc.png" width="352"        height="238">  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/loss.png" width="352"        height="238">   
 	 214 (106/115 successful + 108/121 unsuccessful) out of 236 tests are correct. (accuracy 0.90)  
+	 <p align="center">  
+	  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/test.png" width="352"        height="238">  
 	 
 
          <p>&nbsp;</p>
