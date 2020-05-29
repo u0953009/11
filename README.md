@@ -114,7 +114,7 @@
 	  <img src="https://github.com/u0953009/images/blob/master/bcgray/inceptionres350/test.png" width="352"        height="238">  
 	 
 
-         <p>&nbsp;</p>
+   <p>&nbsp;</p>
 **4. Conclusion**
    - Models with pre-trained weights tends to show higher accuracy for relatively complicated architecture.  
    - VGG16 shows the better accuracy when pre-trained weights are not used.
@@ -139,33 +139,38 @@
    
    
    
-## Installation
->pip install -r requirements.txt
-
-## Usage
-Model training
->python train.py [train_sample_path] [validation_sample_path] [model_filename]
-
-The output model will be saved in 'models' folder.
-<br></br>
-Model prediction  
->ptyhon predict.py [image_file_folder_path] [model_path]
 
 ## Files
-Trained model \
-https://drive.google.com/open?id=1FWcQ0TrORz8ImdYoDcJxHfZ94K-GCKm2 - model 1  
-https://drive.google.com/open?id=1-6AGEURKuotEC49KJMP9sld1tt68hDGR - model 2  
-https://drive.google.com/open?id=1-FBzk1nadSrNQuBvSc-fFNDC1pKw9KwX - model 3  
-https://drive.google.com/open?id=1I-qJqWQztP6DxLSHUhBNZyeHfyXsFH2I - model 4  
+Weights \
+https://drive.google.com/open?id=1EAJlSwU9q2j2gwYkASXkIkbNezWBFDJu - AlexNet  
+https://drive.google.com/open?id=1-6n4u1vFHElpIUjHy9YKO6Uo9BcD3pU8 - AlexNet, fully connected layers replaced  
+
+https://drive.google.com/open?id=1-REOAFanW0GSLysMCp2_M9FbcZ7B6cCc  
+https://drive.google.com/open?id=1-TSrEV4z-7uu_roUqbPiXJij6tNDW06L - VGG16 with no weights
+
+https://drive.google.com/open?id=1--DLNY0cUt394uFo6RHk5htqacR_xYlQ
+https://drive.google.com/open?id=1-086kwufhz4cWaipRN9K0O-ROEfCMXFm - VGG16 with weights
+
+https://drive.google.com/open?id=1cfgnBcqAbDHmOMpNCwD5Pr7h4KMvYvos  
+https://drive.google.com/open?id=1VzLZXYxqWxXVgxUB6ucBwR1-9JjfCOMm - Inception V3 with no weights
+
+https://drive.google.com/open?id=1_TNgiIYgf_R_U_wbN6y3FMSQMzjKSFy9  
+https://drive.google.com/open?id=1e-0yDuWMTC1GIbMIL3BxOis4GGYf0ZOs - Inception V3 with weights  
+
+https://drive.google.com/open?id=1-zJdlzQq3EmMfq3Ieaey1txfu70mrCQl  
+https://drive.google.com/open?id=1-3QBERRAdpoEE9-UhT18V18-pxmbTx8d - Inception ResNet V2, (150,150,3) input_shape  
 
 
-Image samples for training and validation \
-https://drive.google.com/open?id=1YnY1sbOd6FMZc66HS0Ng7PyFw777hMXa - photo images   
-https://drive.google.com/open?id=16TyVfg-CWPLr8wIA8VfzgAwWspvF2RIk - simulation images (successful)  
-https://drive.google.com/open?id=1MRG2JlDXaRgsXnGGr5wYfcKDJJnxzFR5 - simulation images (unsuccessful)  
-https://drive.google.com/open?id=1U0UE6gjmspQkVea8xOm3CT-wKsbBAwzF - Extracted images (successful)     
-https://drive.google.com/open?id=15rYkZ-tH4owzg-1yb2Ie1de3lQomhQ5X - Extracted images (unsuccessful)    
+https://drive.google.com/open?id=18a0ccjb-_6AhurhaVOQ70B0ak6hmVgQy
+https://drive.google.com/open?id=1-1TCy3T5qEGkn4zlSmxfp3SIzjGaHsiw - Inception ResNet v2, (350,350,3) input_shape  
 
-Image samples for Test   \
-https://drive.google.com/open?id=1_Y3puvQj4Ef6TCx3nj5FcPNnhj9y2sYr - images for test (successful)     
-https://drive.google.com/open?id=1yhIuF0tRbcNnaHivrFa5fga4zsbTfWLt - images for test (unsuccessful)      
+
+
+
+Image data for training and validation \
+https://drive.google.com/open?id=14mFpHsZMdnmADks0kzEQIYHEhmSLS2LT - train images   
+ 
+
+Image data for Test   \
+https://drive.google.com/open?id=13_nYOtVE9d61VjCKR_fl1q1hS4imOytL - images for test (successful)     
+https://drive.google.com/open?id=1SShxrPhw9gQxvs5Ueoh1MiE8PSzl4BjG - images for test (unsuccessful)      
